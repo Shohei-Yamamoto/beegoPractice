@@ -8,7 +8,7 @@ My Practice Repository for beego
 
 1. `cd mypractice`
 2. `go get github.com/beego/bee/v2`
-3. bee run
+3. `bee run -downdoc=true -gendoc=true`
 
 
 # tips
