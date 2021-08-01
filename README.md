@@ -13,8 +13,8 @@ My Practice Repository for beego
 
 ## Error: too many open files
 
-* check your settings `launchctl limit`
-* `sudo vi /Library/LaunchDaemons/limit.maxfiles.plist`
+1. check your settings `launchctl limit`
+1. `sudo vi /Library/LaunchDaemons/limit.maxfiles.plist`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>  
@@ -39,8 +39,8 @@ My Practice Repository for beego
 </plist>  
 ```
 
-* `sudo launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist`
-* `launchctl limit`
+1. `sudo launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist`
+1. `launchctl limit`
 
 
 * [Macの「Too many open files」エラーを解消 - Qiita](https://qiita.com/sou_lab/items/1ca051a1f3b906a23dc8)
