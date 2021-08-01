@@ -6,7 +6,9 @@ My Practice Repository for beego
 
 # setup
 
-1. `go get github.com/beego/bee/v2`
+1. `cd mypractice`
+2. `go get github.com/beego/bee/v2`
+3. bee run
 
 
 # tips
