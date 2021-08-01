@@ -8,7 +8,11 @@ My Practice Repository for beego
 
 1. `cd mypractice`
 2. `go get github.com/beego/bee/v2`
-3. `bee run -downdoc=true -gendoc=true`
+3. `bee run`
+
+
+# swagger
+`http://localhost:8080/swagger/`
 
 
 # tips
